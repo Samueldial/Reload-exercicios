@@ -22,7 +22,7 @@ function andamento (painel){
   num2 = document.getElementById("num2");
   oper = document.getElementById("oper");
   //num1.innerHTML = painel;
-  console.log(status);
+  
   if( status != 1 ){
     num2.innerHTML = painel;
   } else {
@@ -42,6 +42,9 @@ function Flimpa(){
   num2 = "";
   num3 = "";
   ope = "";
+
+  status = 1;
+  continua = 1;
 }
 
 function Fsegundo (operacao){
